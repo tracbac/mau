@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.trangDau{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+}
+.name{
+    width: 200px;
+    color: beige;
+    font-size: 30px;
+}
+.gio{
+    height: 50px;
+    width: 50px;
+    margin-left: 65%;
+padding-left: -40px;
+}
+.user{
+    height: 50px;
+    width: 50px;
+    margin-left: 5%;
+    border-radius: 50%;
+}
+#gioHang{
+left:80% ;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border: none;
+display: flex;
+}
+#gioHang>img{
+    width: 50px;
+    height: 50px;
+}
+#user{
+    width: 50px;
+    height: 50px;
+    background-color:black;
+    border: none;
+    border-radius: 50%;
+    
+    display: flex;
+}
+#user>img{
+    color: aliceblue;
+    width: 40px;
+    height: 40px;
+}
+.Sanpham{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    flex-wrap: wrap-reverse;
+    background-color: #bdc3c7;
+}
+.con{
+    display: block;
+    padding: 5Px;
+    margin: 70px;
+    width: 260px;
+    height: 345px;
+    border: 2px solid #111;
+    background-color: #7f8c8d;
+}img{width: 246PX;
+    height: 200px;}
+    .add{
+        margin: auto;
+        text-align: center;
+        width: 200Px;
+        height: 30px;
+        background-color: #3498db;
+        border-radius: 5%;
+        padding: 10px;
+    }a{text-decoration: none;
+        color: #000;
+        font-size: 20px;
+        text-align: center;
+        margin: auto;}
+        .cart{
+            text-align: center;
+            display: none;
+            width: 50%;
+            height: auto;
+        margin: auto;
+            background-color: #3498db;
+            margin-left: 49%;
+            bottom: 83%;
+        }
+        .cart>table{
+            width: 100%;
+
+        }
+        .cart>table>thead>tr>th:first-child{
+           text-align: left;
+            
+        }
+        .cart>table>tr>td{
+            border-bottom: 2px solid #dddd;
+            padding: 12px 0;
+        }
+        #btn2{
+        background-color: #3498db;
+        border: none;
+            height: 20px;
+            width: 20px;
+            text-align: center;
+            font-size: 12px;
+            margin-left: 94%; 
+        }

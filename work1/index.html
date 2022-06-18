@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="trangDau">
+        <div class="name">
+            <h1>Sports shop</h1>
+        </div>
+        <div class="gio">
+            <button id="gioHang">
+        <img src="https://cdn-icons-png.flaticon.com/512/3081/3081840.png" alt="">
+            </button></div>
+            <div class="user">
+            <button id="user">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Breezeicons-actions-22-im-user.svg/1200px-Breezeicons-actions-22-im-user.svg.png" alt="">
+        </buton>  </div>     
+    </div>
+    <div class="SanPham">
+        <div class="con">
+            <img src="https://product.hstatic.net/1000288768/product/1_80e7e4cc72ab4292ad6307da24b83d5f_master.jpg" alt="">
+            <h1>Giày bóng đá Jogarbola Colorlux 1.0</h1>
+            <br>
+            <h1>595000đ</h1>
+            <br>
+            <div class="add"><a href="">Add To Cart</a></div>
+        </div>
+        <div id="cart" class="cart">
+            <button id="btn2">X</button>
+            <section>
+                <form action="">
+                    <table>
+                        <thead>
+                            <tr>
+                            <th>product:</th>
+                            <th>Gia</th>
+                            <th>sl</th>
+                        <th>chon</th>                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="display:flex ; align-items: center; width: 200px;" > <img style="width:60px ; height: 60px;margin: 1px;"  src="https://product.hstatic.net/1000288768/product/1_80e7e4cc72ab4292ad6307da24b83d5f_master.jpg"></td>
+                                <td style=" align-items: center; width: 200px;justify-content: center;" ><p><span>90000</span><sup>đ</sup></p></td>
+                                <td style=" align-items: center; width: 40px; padding: 20px;"> <input style="width: 50px;outline:none; " type="number" value="1" min="0"></td>
+                                <td> xoas</td>
+                           
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </section>
+            <script>document.getElementById("gioHang").onclick = function () {
+                document.getElementById("cart").style.display = 'block';
+
+            };
+            document.getElementById("btn2").onclick = function () {
+                document.getElementById("cart").style.display = 'none';
+
+            };</script>
+        </div></div>
+</body>
+</html>
